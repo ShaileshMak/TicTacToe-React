@@ -1,0 +1,29 @@
+.Board {
+    background-color: gray;
+    border: 1px #cccccc solid;
+  }
+  h1 {
+    font-size: 50px;
+    color: gray;
+  }
+  .status {
+      font-size: 30px;
+      color: gray;
+  }
+  .board-row:after {
+    clear: both;
+    content:"";
+    display: table;
+    margin: 0 auto;
+  }
+  .restart-button {
+      background-color: white;
+      border-radius: 5px;
+      font-size: 25px;
+      color: gray;
+      padding: 10px 25px;
+      margin: 20px 10px;
+  }
+  .restart-button:focus{
+    outline: none;
+}

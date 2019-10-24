@@ -1,0 +1,31 @@
+.Square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 50px;
+    line-height: 75px;
+    height: 75px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 75px;
+}
+
+.Square:focus{
+    outline: none;
+}
+.Square-X:disabled {
+    color: orange;
+}
+.Square-O:disabled {
+    color: brown;
+}
+.Square-winner-X:disabled {
+    color: white;
+    background-color: orange;
+}
+.Square-winner-O:disabled {
+    color: white;
+    background-color: brown;
+}
